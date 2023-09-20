@@ -1,0 +1,18 @@
+:root {
+  --primaryTextBlue: hsl(238, 29%, 16%);
+  --primaryArrowRed: hsl(14, 88%, 65%);
+  --primaryGradienteViolet: hsl(273, 75%, 66%);
+  --primaryGradientBlue: hsl(240, 73%, 65%);
+  --neutralTextBlue: hsl(237, 12%, 33%);
+  --neutralTextGray: hsl(240, 6%, 50%);
+  --neutralDividersGray: hsl(240, 5%, 91%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
