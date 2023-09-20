@@ -1,0 +1,49 @@
+
+/* 
+let item1 = document.getElementById("item1");
+let item2 = document.getElementById("item2");
+let item3 = document.getElementById("item3");
+let item4 = document.getElementById("item4");
+let item5 = document.getElementById("item5");
+
+
+item1.addEventListener("click", () => {desplegarElemento(item1)});
+item2.addEventListener("click", () => {desplegarElemento(item2)});
+item3.addEventListener("click", () => {desplegarElemento(item3)});
+item4.addEventListener("click", () => {desplegarElemento(item4)});
+item5.addEventListener("click", () => {desplegarElemento(item5)});
+
+
+const desplegarElemento = (item) => {
+
+    let itemValue = item.getAttribute("value");
+    restaurarElementos(itemValue);
+
+
+    let questionText = document.getElementById(`question${itemValue}`);
+    questionText.style.fontWeight = 700;
+
+    let arrowElement = document.getElementById(`arrow${itemValue}`);
+    arrowElement.style.transform = "rotate(180deg)";
+
+    let answerText = document.getElementById(`answer${itemValue}`);
+    answerText.style.display = "block";
+
+    item.addEventListener("click", () => {restaurarElementos()});
+
+
+}
+
+const restaurarElementos = (itemValue) => {
+
+   for( let i = 1; i <= 5; i++){
+    let questionText = document.getElementById(`question${i}`);
+        questionText.style.fontWeight = 500;
+    
+        let arrowElement = document.getElementById(`arrow${i}`);
+        arrowElement.style.transform = "rotate(0deg)";
+    
+        let answerText = document.getElementById(`answer${i}`);
+        answerText.style.display = "none";
+   }
+} */
